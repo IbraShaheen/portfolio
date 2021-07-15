@@ -34,7 +34,7 @@ function App() {
           type="button"
           className="btn btn-outline-info"
           onClick={() => scrollTo("#about")}
-          style={{marginLeft:"1450px"}}
+          style={{marginLeft:"1430px"}}
         >
           Top
         </button> <br/><br/>
