@@ -3,59 +3,67 @@ import scrollTo from "gatsby-plugin-smoothscroll";
 
 function NavBar() {
   return (
-    <div>
+    <div >
       <nav
-      id="nbar"
-        className="navbar navbar-light nb"
+        id="nbar"
+        className="navbar navbar-light nb "
         style={{
           backgroundColor: "black",
-          justifyContent: "flex-end",
-          boxShadow:"3px 3px 10px cyan",
+          justifyContent: "flex-start",
+          boxShadow: "3px 3px 10px cyan",
           position: "fixed",
           zIndex: "2",
           width: "100%",
         }}
       >
-            <button
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div
           type="button"
-          className="btn btn-outline-info"
-          onClick={() => scrollTo("#project")}
+          // className="btn btn-outline-info"
+          className="nItem"
+
+          onClick={() => scrollTo("#about")}
+  
         >
-          Projects
-        </button>   
-
-        <button
+          About
+        </div>
+        &nbsp; &nbsp;|&nbsp;&nbsp;&nbsp;
+        <div
           type="button"
-          className="btn btn-outline-info"
-          onClick={() => scrollTo("#experience")}
-        >
-          Experience
-        </button>
-
-
-        <button
-          type="button"
-          className="btn btn-outline-info"
-          onClick={() => scrollTo("#skill")}
-        >
-          Skills
-        </button>
-
-        <button
-          type="button"
-          className="btn btn-outline-info"
+          // className="btn btn-outline-info"
+          className="nItem"
           onClick={() => scrollTo("#education")}
         >
           Education
-        </button>
-
-        <button
+        </div>
+        &nbsp; &nbsp;|&nbsp;&nbsp;&nbsp;
+        <div
           type="button"
-          className="btn btn-outline-info"
-          onClick={() => scrollTo("#about")}
+          // className="btn btn-outline-info"
+          className="nItem"
+          onClick={() => scrollTo("#skill")}
         >
-          About
-        </button>
+          Skills
+        </div>
+        &nbsp; &nbsp;|&nbsp;&nbsp;&nbsp;
+        <div
+          type="button"
+          // className="btn btn-outline-info"
+          className="nItem"
+          onClick={() => scrollTo("#experience")}
+        >
+          Experience
+        </div>
+        &nbsp; &nbsp;|&nbsp;&nbsp;&nbsp;
+        <div
+          type="button"
+          // className="btn btn-outline-info"
+          className="nItem"
+          onClick={() => scrollTo("#project")}
+        >
+          Project
+        </div>
+        
       </nav>
     </div>
   );
