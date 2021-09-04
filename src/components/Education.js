@@ -2,7 +2,9 @@ import React from "react";
 
 function Education() {
   return (
-    <center id="education">
+    <span id="education">
+
+    <center>
       <div>
         <p className="card-title">EDUCATION</p>
         <br />
@@ -16,11 +18,12 @@ function Education() {
         </p>
         <hr style={{width:"50%"}} />
         <h4>Tafila Technical University</h4>
-        <h5>Bachelor Degree of Mechatronics Engineering | 2018</h5>
+        <h5>Bachelor Degree of Electrical Power Engineering | 2018</h5>
         <hr style={{width:"50%"}} />
       </div>
       <br /><br /><br />
     </center>
+    </span>
   );
 }
 

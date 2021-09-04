@@ -10,6 +10,12 @@ import { SiJavascript } from "@react-icons/all-files/si/SiJavascript";
 import { SiHtml5 } from "@react-icons/all-files/si/SiHtml5";
 import { SiCss3 } from "@react-icons/all-files/si/SiCss3";
 
+import { SiTailwindcss } from "@react-icons/all-files/si/SiTailwindcss";
+import { DiMongodb } from "@react-icons/all-files/di/DiMongodb";
+
+
+
+
 const Skills = () => {
   return (
     <center id="skill">
@@ -23,9 +29,8 @@ const Skills = () => {
             <br />
             <br />
             <p className="card-text about fsd">
-              <h4>Coding Languages:</h4>
+              <p className="card-text about ">Coding Languages:</p>
             </p>
-            <br />
             <p className="card-text about"></p>
             &nbsp;&nbsp;&nbsp;&nbsp;
             <SiJavascript style={{ width: "60px", height: "60px" }} />
@@ -36,10 +41,7 @@ const Skills = () => {
             <br />
             <br />
             <br />
-            <br />
-            <br />
-            <p className="card-text about fsd">Firmworks & Libraries:</p>
-            <br />
+            <p className="card-text about ">Firmworks & Libraries:</p>
             &nbsp;&nbsp;&nbsp;&nbsp;
             <SiPostgresql style={{ width: "60px", height: "60px" }} />
             &nbsp;&nbsp;&nbsp;&nbsp;
@@ -51,21 +53,29 @@ const Skills = () => {
             &nbsp;&nbsp;&nbsp;&nbsp;
             <SiRedux style={{ width: "60px", height: "60px" }} />
             &nbsp;&nbsp;&nbsp;&nbsp;
-            <br/><br/>
+            <br />
+            <br />
             <img
               style={{ width: "200px", height: "60px" }}
               src="https://cdn-images-1.medium.com/max/1600/1*ypyKHfdnTbM-DZG-nZ5tRg.png"
               alt="react-native"
             />
             &nbsp;&nbsp;&nbsp;&nbsp;
-              <img
-              style={{ width: "200px", height: "60px",color:"white" }}
+            <img
+              style={{ width: "200px", height: "60px", color: "white" }}
               src="https://gfx4arab.com/wp-content/uploads/2020/07/express-109.svg"
               alt="express"
             />
-            <br/>
+
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <DiMongodb style={{ width: "60px", height: "60px" }} />
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <SiTailwindcss style={{ width: "60px", height: "60px" }} />
+
+            <br />
           </div>
         </div>
+        <br />
       </div>
       ‏
     </center>

@@ -9,12 +9,12 @@ function Home() {
           <div className="col-md-4">
             <img
               style={{
-                alignSelf: "flex-start",
-                borderRadius: "20px",
-                margin: "20px",
-                opacity: 0.65,
+                // borderRadius: "20px",
+                margin: "6%",
+                opacity: 0.9,
                 width:"90%",
-                height:"65%",
+                height:"80%",
+
               }}
               className="card-img"
               src="https://i.ibb.co/XyWtqTj/pic-pro.png"
@@ -26,33 +26,30 @@ function Home() {
               <br />
               <br />
               <h1 className="card-title">IBRAHEEM SHAHEEN </h1>
-              <p className="card-text fsd">
-                <h4>Full Stack Developer</h4>
+              <p className="card-text">
+                <h4>Junior Full Stack Developer</h4>
               </p>
               <br />
               <br />
               <br />
               <p className="card-text about">
-                <p>
-                An Electrical power engineering graduate. I discovered my passion for coding during my study so I started self learning after graduation. And now I'm a junior full stack developer and the passion never stops.
+                <p className="bio">
+                An Electrical power engineering graduate, I discovered my passion for coding during my study so I started self learning after graduation. 
+                And now I'm a junior full stack developer and the passion never stops.
 
                 </p>
               </p>
               <br />
               <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
+
+
               <a href="https://github.com/IbraShaheen" target="_blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="55"
                   height="55"
                   fill="currentColor"
-                  class="bi bi-github"
+                  className="bi bi-github"
                   viewBox="0 0 16 16"
                   color="black"
                 >
@@ -69,9 +66,9 @@ function Home() {
                   width="55"
                   height="55"
                   fill="currentColor"
-                  class="bi bi-linkedin"
+                  className="bi bi-linkedin"
                   viewBox="0 0 16 16"
-                  
+                  color="#0a66c2"
                 >
                   <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
                 </svg>
@@ -83,7 +80,7 @@ function Home() {
                   width="55"
                   height="55"
                   fill="currentColor"
-                  class="bi bi-envelope-fill"
+                  className="bi bi-envelope-fill"
                   viewBox="0 0 16 16"
                   color="white"
                 >
@@ -97,9 +94,9 @@ function Home() {
                   width="55"
                   height="55"
                   fill="currentColor"
-                  class="bi bi-telephone-fill"
+                  className="bi bi-telephone-fill"
                   viewBox="0 0 16 16"
-                  color="green"
+                  color="#38b000"
                 >
                   <path
                     fill-rule="evenodd"
@@ -107,6 +104,11 @@ function Home() {
                   />
                 </svg>
               </a>
+              <br />
+              <br />
+              <br />
+
+
             </div>
           </div>
         </div>

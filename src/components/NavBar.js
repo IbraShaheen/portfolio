@@ -8,21 +8,17 @@ function NavBar() {
         id="nbar"
         className="navbar navbar-light nb "
         style={{
-          backgroundColor: "black",
           justifyContent: "flex-start",
-          boxShadow: "3px 3px 10px cyan",
-          position: "fixed",
-          zIndex: "2",
-          width: "100%",
+          position: "fixed"
         }}
       >
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;
         <div
           type="button"
           // className="btn btn-outline-info"
           className="nItem"
 
-          onClick={() => scrollTo("#about")}
+          onClick={() => scrollTo("#top")}
   
         >
           About
@@ -52,7 +48,7 @@ function NavBar() {
           className="nItem"
           onClick={() => scrollTo("#experience")}
         >
-          Experience
+          Experiences
         </div>
         &nbsp; &nbsp;|&nbsp;&nbsp;&nbsp;
         <div
@@ -61,7 +57,7 @@ function NavBar() {
           className="nItem"
           onClick={() => scrollTo("#project")}
         >
-          Project
+          Projects
         </div>
         
       </nav>

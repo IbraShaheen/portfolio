@@ -10,44 +10,28 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 
-import scrollTo from "gatsby-plugin-smoothscroll";
-
 function App() {
   return (
     <div className="App">
+      <span id="top">
       <NavBar />
+      </span>
       <br />
       <br />
       <br />
       <br />
+      <br />
+
       <Home />
-      <br />
-      <br />
       <br />
       <Education />
       <br />
-      <br />
-      <br />
       <Skills />
-      <br />
-      <br />
       <br />
       <Experience />
       <br />
-      <br />
-      <br />
       <Projects />
       <br />
-      <br />
-      <br />
-      <button
-        type="button"
-        className="btn btn-outline-info"
-        onClick={() => scrollTo("#about")}
-        style={{ marginLeft: "92%" }}
-      >
-        Top
-      </button>{" "}
       <br />
       <br />
       <Footer />
