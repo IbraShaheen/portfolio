@@ -40,8 +40,8 @@ const Skills = () => {
             <SiCss3 style={{ width: "60px", height: "60px" }} />
             <br />
             <br />
-            <br />
-            <p className="card-text about ">Firmworks & Libraries:</p>
+            <br /> 
+            <p className="card-text about ">Frameworks & Libraries:</p>
             &nbsp;&nbsp;&nbsp;&nbsp;
             <SiPostgresql style={{ width: "60px", height: "60px" }} />
             &nbsp;&nbsp;&nbsp;&nbsp;

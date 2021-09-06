@@ -1,9 +1,9 @@
 import React from "react";
+import pic from "./pic.png";
 
 function Home() {
   return (
     <center id="about">
-
       <div className="card mb-3" style={{ maxWidth: "98%" }}>
         <div className="row no-gutters">
           <div className="col-md-4">
@@ -12,12 +12,12 @@ function Home() {
                 // borderRadius: "20px",
                 margin: "6%",
                 opacity: 0.9,
-                width:"90%",
-                height:"80%",
-
+                width: "90%",
+                height: "80%",
               }}
               className="card-img"
-              src="https://i.ibb.co/XyWtqTj/pic-pro.png"
+              // src="https://i.ibb.co/XyWtqTj/pic-pro.png"
+              src={pic}
               alt="Ibraheem"
             />
           </div>
@@ -34,15 +34,14 @@ function Home() {
               <br />
               <p className="card-text about">
                 <p className="bio">
-                An Electrical power engineering graduate, I discovered my passion for coding during my study so I started self learning after graduation. 
-                And now I'm a junior full stack developer and the passion never stops.
-
+                  An Electrical power engineering graduate, I discovered my
+                  passion for coding during my study so I started self learning
+                  after graduation. And now I'm a junior full stack developer
+                  and the passion never stops.
                 </p>
               </p>
               <br />
               <br />
-
-
               <a href="https://github.com/IbraShaheen" target="_blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -107,8 +106,6 @@ function Home() {
               <br />
               <br />
               <br />
-
-
             </div>
           </div>
         </div>
